@@ -65,12 +65,26 @@
     <div class="linkdiv"><a href="hwr-report.html">HWR Report</a></div>
 </header>
 <div class="container">
+<form>
+    <p><label for="trxid">trxid</label>
+        <input type="text" name="trxid" id="trxid" /></p>
 
+    <p><label for="time">time</label>
+        <input type="text" name="time" id="time" /></p>
+    <button type="submit" onclick="displayData(trxid.value, time.value)">Få frem min data</button>
 
+</form>
+<p class="displayData"></p>
 </div>
 
 
 <script>
+    function displayData(trxid, time){
+        const fetchstring = "'https://bacit.info/hwr/" + time + "-" + trxid + ".json'"
+        fetch(fetchstring)
+            .then(response => response.json())
+            .then(data => document.querySelector('.displayData').innerHTML = data);
+    }
 
     fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')
         .then(response => response.json())
