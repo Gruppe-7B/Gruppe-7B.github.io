@@ -83,7 +83,7 @@
         const fetchstring = "'https://bacit.info/hwr/" + time + "-" + trxid + ".json'"
         fetch(fetchstring)
             .then(response => response.json())
-            .then(data => document.querySelector('.displayData').innerHTML = data);
+            .then(data =>  console.log(data));
     }
 
     fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')
