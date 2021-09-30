@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="visittkort-martin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/visittkort-martin.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
