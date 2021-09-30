@@ -64,6 +64,23 @@
     <div class="linkdiv"><a href="how-we-roll.html">How We Roll</a></div>
     <div class="linkdiv"><a href="hwr-report.html">HWR Report</a></div>
 </header>
+<div class="container">
+
+
+</div>
+
+
+<script>
+
+    fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+    fetch('https://bacit.info/hwr/20210926162029-a89356bb617d3bbf870649c08570427e.json')
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+</script>
 </body>
 </html>
 
