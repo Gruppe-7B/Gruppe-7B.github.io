@@ -12,12 +12,7 @@
 
     body{
         font-family: Tahoma, Verdana, Segoe, sans-serif;
-        background-color: #858486;
-    }
-
-    h2{
-        padding: 5px;
-        text-align: center;
+        background-color: #fff;
     }
     .contdiv{
         margin: 150px 0;
@@ -31,107 +26,103 @@
         clear: both;
     }
 
+    /*Header*/
     header{
         width: 100%;
         top:0;
+        height: 87px;
         position: fixed;
-        height: 70px;
-        background-color: #4D4A51;
+        background-color: #000;
+        border-bottom: 3px solid #DCDCDC;
+    }
+    header ul{
+        list-style: none;
+    }
+    header li{
+        display: inline-block;
     }
     header a{
-        padding-top: 15px;
-        display: inline-block;
-        color:#fff;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        box-sizing: content-box;
+        font-weight: bold;
         text-decoration: none;
-        background-color: #4D4A51;
+        color: #fff;
+        padding: 10px 20px;
+        border-bottom: 2px solid #DCDCDC;
     }
     header a:hover{
-        background-color:#69676B;
+        background-color: #4D4A51;
+        border-bottom: 2px solid #4D4A51;
     }
-    .linkdiv{
-        float:left;
-        box-sizing: border-box;
-        width: 50%;
-        height: 50%;
+    header h2{
+        margin: 15px;
+        font-size: 1.5em;
+    }
+    .active{
+        background-color: #4D4A51;
+        border-bottom: 2px solid #4D4A51;
     }
 
 </style>
 <script src=""></script>
 <body>
 <header>
-    <h2><a href="index.html" id="home">HJEMMESIDE 7B</a></h2>
-    <div class="linkdiv"><a href="how-we-roll.html">How We Roll</a></div>
-    <div class="linkdiv"><a href="hwr-report.html">HWR Report</a></div>
+    <h2 style="color: #fff">Gruppe 7B - How We Roll</h2>
+    <ul>
+        <li><a href="index.html">Hjem</a></li><li><a href="how-we-roll.html" class="active">How We Roll</a></li><li><a href="hwr-report.html">HWR Report</a></li>
+    </ul>
 </header>
 <div class="contdiv"></div>
 <div class="container">
     <form>
- <p><label for="introelekstro">1. Er du introvert eller ekstrovert?</label>
-            <input type="text" name="introelekstro" id="introelekstro" /></p>
-        <p>
-            <label>2. Hvor mange timer i uken arbeider du?
+        <!--1. Introvert eller ekstrovert-->
+        <p><label for="introelekstro">1. Er du introvert eller ekstrovert?</label></p>
+        <p><input type="text" name="introelekstro" id="introelekstro" /></p>
+
+        <!--2. Hvor mange timer i uken arbeider du?-->
+        <p><label>2. Hvor mange timer i uken arbeider du?</label></p>
                 <select name="numb">
                     <option value="1-3 timer">1-3 timer</option>
                     <option value="3-6 timer">3-6 timer</option>
                     <option value="6-10 timer">6-10 timer</option>
                     <option value="mer enn 10 timer">Mer enn 10 timer</option>
                 </select>
-            </label>
-        </p>
-  
-	<p>
-    		<!-- dorn - day or night -->
-    		<label for="dorn">3. Er du en morgenfugl eller en nattugle?</label>
-    		<br>
+
+    		<!--3. Morgenfugl eller nattugle -->
+    		<p><label for="dorn">3. Er du en morgenfugl eller en nattugle?</label></p>
     		<label for="dorn">Morgenfugl</label>
     		<input type="range" id="dorn" name="dorn" min="1" max="10" value="5">
     		<label for="dorn">Nattugle</label>
-	</p>
 
-	<p>
-    		<!-- sam - small or large groups -->
-    		<label for="sam">4. Foretrekker du å jobbe i små eller store grupper?</label>
-    		<br>
+    		<!--4. Store eller små grupper -->
+    		<p><label for="sam">4. Foretrekker du å jobbe i små eller store grupper?</label></p>
     		<input type="checkbox" id="small" name="Små grupper" value="sma">
     		<label for="sma">Små grupper</label>
     		<input type="checkbox" id="large" name="Store grupper" value="stor">
     		<label for="stor">Store grupper</label>
-	</p>
-          <p>
-		<label for="role">7. Foretrekker du klare rolleinndelinger eller variert arbeid?</label><br>
-		<br>
-		<label>Klare rolleinndelinger</label>
-		<input type="range" id="role" name="role"></input>
-		<label>Variert Arbeid</label>
-		<br>
-		<br>
-        </p>
-	 <p>
-            <!-- teamSelv - team or alone -->
+
+            <!-- 5. Foretrekker du klare rolleinndelinger eller variert arbeid?-->
+            <p><label for="role">5. Foretrekker du klare rolleinndelinger eller variert arbeid?</label></p>
+            <label>Klare rolleinndelinger</label>
+            <input type="range" id="role" name="role"></input>
+            <label>Variert Arbeid</label>
+
+            <!--6. Foretrekker du å jobbe i teams eller alene?-->
+            <p><label for="teamSelv">6. Foretrekker du å jobbe i teams eller alene?</label></p>
             <label for="teamSelv">I grupper</label>
             <input type="range" id="teamSelv" name="teamSelv" value="50" min="0" max="5">
             <label for="teamSelv">Alene</label>
-        </p>
-        <br>
-        Liker du å jobbe fysisk eller digitalt?
-<p>
-    <input type="radio" id="check2" name="check" value="fysisk">
-    <label for="check2">Jeg liker å jobbe fysisk</label><br>
-    <input type="radio" id="check1" name="check" value="digitalt">
-    <label for="check1">Jeg liker å jobbe digitalt</label><br>
-</p>
-		 <p>
-		<label for="Role">8. Er det noe annet du tenker at vi burde vite?</label><br><br>
-		<textarea rows="4" cols="50"></textarea>
-		<br>
-		<br>
-        </p>
 
-<button type="submit">Send inn</button>
+            <!--7. Liker du å jobbe fysisk eller digitalt?-->
+            <p>7. Liker du å jobbe fysisk eller digitalt?</p>
+            <input type="radio" id="check2" name="check" value="fysisk">
+            <label for="check2">Jeg liker å jobbe fysisk</label><br>
+            <input type="radio" id="check1" name="check" value="digitalt">
+            <label for="check1">Jeg liker å jobbe digitalt</label><br>
+
+		    <!--8. Er det noe annet du tenker at vi burde vite?-->
+            <p><label for="ekstra">8. Er det noe annet du tenker at vi burde vite?</label></p>
+            <textarea rows="4" cols="50" id="ekstra"></textarea>
+
+        <p><button type="submit">Send inn</button></p>
 </form>
 
 <div class="results">
