@@ -2,7 +2,7 @@
 
 ## **Selve oppgaven**
 
-### _Visittkort_
+### **Visittkort**
 
 1. Vi startet med at alle som var til stede designet sitt eget visittkort så vi hadde flere utkast å ta utgangspunkt i. Noen av disse ble gjort digitalt og andre ble gjort på papir.
 2. Deretter sammenlignet vi designene våre og ble enige om ett felles design alle ville bruke.
