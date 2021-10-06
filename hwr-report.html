@@ -62,7 +62,6 @@
     }
 
 </style>
-<script src=""></script>
 <body>
 <header>
     <h2 style="color: #fff">Gruppe 7B - HWR Report</h2>
@@ -72,43 +71,30 @@
 </header>
     <div class="contdiv"></div>
 <div class="container">
+    <!--
+
+Form Data
+  "introelekstro": "safsf",
+  "numb": "1-3 timer",
+  "dorn": "6",
+  "Små grupper": "sma",
+  "role": "84",
+  "teamSelv": "3",
+  "check": "fysisk",
+  "trxid": "916f191e3935a076f7f9ea419b1a00ae",
+  "time": "20211005073247"
+  -->
+
 
     <canvas id="myCanvas" width="600" height="400" style="border:1px solid #000000;">
+
     </canvas>
-
-    <form method="post">
-    <p><label for="trxid">trxid</label>
-        <input type="text" name="trxid" id="trxid" /></p>
-
-    <p><label for="time">time</label>
-        <input type="text" name="time" id="time" /></p>
-    <button type="submit" onclick="displayData(trxid.value, time.value)">Få frem min data</button>
-
-</form>
-<p class="displayData"></p>
+    <p id="test"></p>
 </div>
 
 
 <script>
     const myCanvas = document.querySelector("#myCanvas");
-    const ctx = myCanvas.getContext("2D");
-    ctx.rect(10,10,10,10);
-
-
-    function displayData(trxid, time){
-        const fetchstring = "'https://bacit.info/hwr/" + time + "-" + trxid + ".json'"
-        fetch(fetchstring)
-            .then(response => response.json())
-            .then(data =>  console.log(data));
-    }
-
-    fetch('https://bacit.info/hwr/20210926134925-47352fbdecddd9a754001f4e4abbf40f.json')
-        .then(response => response.json())
-        .then(data => console.log(data));
-
-    fetch('https://bacit.info/hwr/20210926162029-a89356bb617d3bbf870649c08570427e.json')
-        .then(response => response.json())
-        .then(data => console.log(data));
 
 </script>
 </body>
