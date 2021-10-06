@@ -31,7 +31,7 @@ Alle gruppemedlemmene fulgte oppgkegget og vi fikk alle ganske raskt en forståe
 Hovedverktøyet vi brukte i gruppa var Intellij og git/github. Intellij fungerer bra og var lett å lære. Vi eksperimentere litt med Visual Studio Code men kom til slutt frem at Intellij var det som fungerte best for gruppen.
 Git/github tok en del prøving og feiling før alle var på samme side. Etter å ha fått en bedre forståelse for github og git virker dette også som et veldig nyttig og brukbart verktøy.
 
-### **Medlemmer**
+### **Gruppe 7b medlemmer**
 * Krister Hartvedt Vårdal
 * Tørres Andreas Båshus
 * Gustav Svartsund
