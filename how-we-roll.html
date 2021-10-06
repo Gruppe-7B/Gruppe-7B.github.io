@@ -80,7 +80,9 @@
     <form>
         <!--1. Introvert eller ekstrovert-->
         <p><label for="introelekstro">1. Er du introvert eller ekstrovert?</label></p>
-        <p><input type="text" name="introelekstro" id="introelekstro" /></p>
+        <label for="introelekstro">Introvert</label>
+        <input type="range" id="introelekstro" introelekstro="dorn" min="0" max="10" value="5">
+        <label for="introelekstro">Ekstrovert</label>
 
         <!--2. Hvor mange timer i uken arbeider du?-->
         <p><label for="numb">2. Hvor mange timer i uken arbeider du?</label></p>
