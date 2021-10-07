@@ -90,54 +90,61 @@
         	<input type="range" id="timer" name="numb" min="0" max="10" value="5">
         	<label for="timer">10 timer</label>
 	    
+	
+        <!--3. Foretrekker du å jobbe mange timer en dag for å bli ferdig med en oppgave, eller fordele noen timer hver dag utover uken?-->
+        	<p><label for="fordeling">3. Foretrekker du å jobbe mange timer en dag for å bli ferdig med en oppgave, eller fordele noen timer hver dag utover uken?</label></p>
+	    	<label for="fordeling">alt på en dag</label>
+        	<input type="range" id="fordeling" name="numb" min="0" max="10" value="5">
+        	<label for="fordeling">fordeling utover uken</label>
+	    
 
-    	<!--3. Morgenfugl eller nattugle -->
-    		<p><label for="dorn">3. Er du en morgenfugl eller en nattugle?</label></p>
+    	<!--4. Morgenfugl eller nattugle -->
+    		<p><label for="dorn">4. Er du en morgenfugl eller en nattugle?</label></p>
     		<label for="dorn">Morgenfugl</label>
     		<input type="range" id="dorn" name="dorn" min="0" max="10" value="5">
     		<label for="dorn">Nattugle</label>
 
-    	<!--4. Store eller små grupper -->
-            	<p>4. Foretrekker du å jobbe i små eller store grupper?</p>
+    	<!--5. Store eller små grupper -->
+            	<p>5. Foretrekker du å jobbe i små eller store grupper?</p>
 	    	<label for="small">Små</label>
     		<input type="range" id="small" name="small" min="0" max="10" value="5">
     		<label for="dorn">Store</label>
 
-        <!-- 5. Foretrekker du klare rolleinndelinger eller variert arbeid?-->
-            	<p><label for="role">5. Foretrekker du klare rolleinndelinger eller variert arbeid?</label></p>
+        <!-- 6. Foretrekker du klare rolleinndelinger eller variert arbeid?-->
+            	<p><label for="role">6. Foretrekker du klare rolleinndelinger eller variert arbeid?</label></p>
             	<label>Klare rolleinndelinger</label>
             	<input type="range" id="role" name="role" min="0" max="10" value="5"/>
             	<label>Variert Arbeid</label>
 
-        <!--6. Foretrekker du å jobbe i teams eller alene?-->
-            	<p><label for="teamSelv">6. Foretrekker du å jobbe i teams eller alene?</label></p>
+        <!--7. Foretrekker du å jobbe i teams eller alene?-->
+            	<p><label for="teamSelv">7. Foretrekker du å jobbe i teams eller alene?</label></p>
             	<label for="teamSelv">I grupper</label>
             	<input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
             	<label for="teamSelv">Alene</label>
 	    
-	<!--7. Foretrekker du å spise lunsj med gruppen eller for deg selv-->
-            	<p><label for="teamSelv">6. Foretrekker du å spise lunsj med gruppen eller for deg selv?</label></p>
+	<!--8. Foretrekker du å spise lunsj med gruppen eller for deg selv-->
+            	<p><label for="teamSelv">8. Foretrekker du å spise lunsj med gruppen eller for deg selv?</label></p>
             	<label for="teamSelv">Med gruppen</label>
             	<input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
             	<label for="teamSelv">For meg selv</label>
 	    
 
-        <!--8. Liker du å jobbe fysisk eller digitalt?-->
-            	<p>7. Liker du å jobbe fysisk eller digitalt?</p>
+        <!--9. Liker du å jobbe fysisk eller digitalt?-->
+            	<p>9. Liker du å jobbe fysisk eller digitalt?</p>
 	    	<label for="FysDig">Fysisk</label>
             	<input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
             	<label for="FysDig">Digital</label>
+	
+	<!--10. Liker du å jobbe fysisk eller digitalt?-->
+            	<p>10. Synes du arbeidet i gruppen din blir fordelt godt?</p>
+	    	<label for="arbfor">Meget godt fordelt</label>
+            	<input type="range" id="arbfor" name="arbfor" min="0" max="10" value="5"/>
+            	<label for="arbfor">Ikke bra fordelt</label>
 
-	<!--9. Er det noe annet du tenker at vi burde vite?-->
-            <p><label for="ekstra">8. Er det noe annet du tenker at vi burde vite?</label></p>
+	<!--11. Er det noe annet du tenker at vi burde vite?-->
+            <p><label for="ekstra">10. Er det noe annet du tenker at vi burde vite?</label></p>
             <textarea rows="4" cols="50" id="ekstra"></textarea>
-	    
-	    
-	    Hvor godt blir arbeidet fordelt i gruppa di?
-Godt fordelt - Ikke fordelt
-
-	    Liker du å ha gruppe digitalt eller fysisk?
-Digitalt - Fysisk
+	
 
 
         <p><button type="submit">Send inn</button></p>
