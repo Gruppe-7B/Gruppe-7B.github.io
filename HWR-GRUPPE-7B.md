@@ -1,4 +1,4 @@
-**How we roll oppgavebeskrivelse 7b**
+**_How we roll oppgavebeskrivelse 7b_**
 
 ### **Gruppe 7b medlemmer**
 * Krister Hartvedt Vårdal
