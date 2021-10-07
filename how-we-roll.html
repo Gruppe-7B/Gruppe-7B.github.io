@@ -81,13 +81,13 @@
         <!--1. Introvert eller ekstrovert-->
         	<p><label for="introelekstro">1. Er du introvert eller ekstrovert?</label></p>
         	<label for="introelekstro">Introvert</label>
-        	<input type="range" id="introelekstro" introelekstro="dorn" min="0" max="10" value="5">
+        	<input type="range" id="introelekstro" name="dorn" min="0" max="10" value="5">
         	<label for="introelekstro">Ekstrovert</label>
 
         <!--2. Hvor mange timer i uken arbeider du?-->
         	<p><label for="timer">2. Hvor mange timer i uken arbeider du?</label></p>
 	    	<label for="timer">0 time</label>
-        	<input type="range" id="timer" introelekstro="numb" min="0" max="10" value="5">
+        	<input type="range" id="timer" name="numb" min="0" max="10" value="5">
         	<label for="timer">10 timer</label>
 	    
 
@@ -104,25 +104,24 @@
     		<label for="dorn">Store</label>
 
         <!-- 5. Foretrekker du klare rolleinndelinger eller variert arbeid?-->
-            <p><label for="role">5. Foretrekker du klare rolleinndelinger eller variert arbeid?</label></p>
-            <label>Klare rolleinndelinger</label>
-            <input type="range" id="role" name="role" min="0" max="10" value="5"/>
-            <label>Variert Arbeid</label>
+            	<p><label for="role">5. Foretrekker du klare rolleinndelinger eller variert arbeid?</label></p>
+            	<label>Klare rolleinndelinger</label>
+            	<input type="range" id="role" name="role" min="0" max="10" value="5"/>
+            	<label>Variert Arbeid</label>
 
-            <!--6. Foretrekker du å jobbe i teams eller alene?-->
-            <p><label for="teamSelv">6. Foretrekker du å jobbe i teams eller alene?</label></p>
-            <label for="teamSelv">Teams</label>
-            <input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
-            <label for="teamSelv">Alene</label>
+        <!--6. Foretrekker du å jobbe i teams eller alene?-->
+            	<p><label for="teamSelv">6. Foretrekker du å jobbe i teams eller alene?</label></p>
+            	<label for="teamSelv">I grupper</label>
+            	<input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
+            	<label for="teamSelv">Alene</label>
 
-            <!--7. Liker du å jobbe fysisk eller digitalt?-->
-            <p>7. Liker du å jobbe fysisk eller digitalt?</p>
-            <input type="radio" id="fysisk" name="fyeldi" value="fysisk">
-            <label for="fysisk">Jeg liker å jobbe fysisk</label><br>
-            <input type="radio" id="digitalt" name="fyeldi" value="digitalt">
-            <label for="digitalt">Jeg liker å jobbe digitalt</label><br>
+        <!--7. Liker du å jobbe fysisk eller digitalt?-->
+            	<p>7. Liker du å jobbe fysisk eller digitalt?</p>
+	    	<label for="FysDig">Fysisk</label>
+            	<input type="range" id="teamSelv" name="teamSelv" min="0" max="10" value="5"/>
+            	<label for="FysDig">Digital</label>
 
-		    <!--8. Er det noe annet du tenker at vi burde vite?-->
+	<!--8. Er det noe annet du tenker at vi burde vite?-->
             <p><label for="ekstra">8. Er det noe annet du tenker at vi burde vite?</label></p>
             <textarea rows="4" cols="50" id="ekstra"></textarea>
 
