@@ -85,13 +85,11 @@
         <label for="introelekstro">Ekstrovert</label>
 
         <!--2. Hvor mange timer i uken arbeider du?-->
-        <p><label for="numb">2. Hvor mange timer i uken arbeider du?</label></p>
-                <select name="numb" id="numb">
-                    <option value="1-3 timer">1-3 timer</option>
-                    <option value="3-6 timer">3-6 timer</option>
-                    <option value="6-10 timer">6-10 timer</option>
-                    <option value="mer enn 10 timer">Mer enn 10 timer</option>
-                </select>
+        	<p><label for="timer">2. Hvor mange timer i uken arbeider du?</label></p>
+	    	<label for="timer">0 time</label>
+        	<input type="range" id="timer" introelekstro="numb" min="0" max="10" value="5">
+        	<label for="timer">10 timer</label>
+	    
 
     		<!--3. Morgenfugl eller nattugle -->
     		<p><label for="dorn">3. Er du en morgenfugl eller en nattugle?</label></p>
