@@ -40,4 +40,4 @@ Git/github tok en del prøving og feiling før alle var på samme side. Etter å
 * Benjamin Johannes Freitag
 * Larisa Khasanbekovna Saitova
 
-! [eksempelbilde](repository/Images/bilde.jpg)
+! [eksempelbilde](gruppe-7B/Images/bilde.jpg)
