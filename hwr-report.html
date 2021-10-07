@@ -99,9 +99,12 @@
         //Tørres (index 6)
         'https://bacit.info/hwr/20211007131925-cb727842538997fc7abc09e5c65fa1cc.json',
     ]
-    fetch('https://bacit.info/hwr/20211007131906-3a88859dfc8f3d41b91f2f37111b8e49.json')
+    
+    fetch(vareUrl[1])
     .then(response => response.json())
-    .then(data => console.log(data));
+    .then(data => function(){
+        document.getElementById("test").innerHTML = data;
+    });
 
 </script>
 </body>
