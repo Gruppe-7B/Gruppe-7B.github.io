@@ -16,7 +16,7 @@
 2. Etter å ha utviklet en brukerreise utviklet vi sammen en skisse på papir av en basic layout for det vi trengte i applikasjonen.
 3. Vi utviklet en basic versjon av _index.html_ med visittkort og lenker til _how-we-roll.html_ og _hwr-report.html_.
 4. Vi ble så enige om en rekke spørsmål i felleskap som vi ville stille i HWR. Hver person fikk i oppgaven å kode et visst antall spørsmål inn i _how-we-roll.html_ samt å begrunne hvorfor de gjorde som de gjorde med tanke på datamodellering. For at alle skulle få lagt inn sine spørsmål lagde vi **Github** branches og øvde oss på pull requests .
-5. **IKKE FERDIG ENDA**
+5. Implementering av visualisering HWR. Vi lagde ett spørreskjema ved hjelp av litt javascript og HTML. Alle på gruppen kom opp med to spørsmål som var sentrert rundt studier og fagene. Vi puttet disse spørsmålene i ett nummerert skjema med sliders der min value er 0 og max value er 10. Når du har svart på disse spørsmålene får vi ett _form data_ der alle svarene står med en iD som er unik til brukeren.
 
 ## _Intern Organisering_
 
