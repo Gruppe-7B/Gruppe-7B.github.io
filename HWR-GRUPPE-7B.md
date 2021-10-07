@@ -39,3 +39,5 @@ Git/github tok en del prøving og feiling før alle var på samme side. Etter å
 * Martin Hommeland Monsen
 * Benjamin Johannes Freitag
 * Larisa Khasanbekovna Saitova
+
+! ![title](Images/bilde.jpg)
