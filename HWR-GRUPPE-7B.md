@@ -41,3 +41,6 @@ Git/github tok en del prøving og feiling før alle var på samme side. Etter å
 * Larisa Khasanbekovna Saitova
 
 ! [eksempelbilde](gruppe-7B/Images/bilde.jpg)
+
+<img src="images/bilde.jpg"/>
+
