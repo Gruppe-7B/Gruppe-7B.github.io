@@ -39,3 +39,5 @@ Alle gruppemedlemmene fulgte opplegget og vi fikk alle ganske raskt en forståel
 
 Hovedverktøyet vi brukte i gruppa var Intellij og git/github. Intellij fungerer bra og var lett å lære. Vi eksperimentere litt med Visual Studio Code men kom til slutt frem at Intellij var det som fungerte best for gruppen.
 Git/github tok en del prøving og feiling før alle var på samme side. Etter å ha fått en bedre forståelse for github og git virker dette også som et veldig nyttig og brukbart verktøy.
+
+Siden har noen problemer med å vise alle svarene men vi tror dette skyldes et problem med fetching fra serveren og ikke koden. Det fungerer helt fint når .json filene er lagret lokalt.
