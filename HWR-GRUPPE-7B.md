@@ -9,7 +9,7 @@
 * [Benjamin Johannes Freitag](https://github.com/Benjamin00231)
 * [Larisa Khasanbekovna Saitova](https://github.com/LarisaSK)
 
-[Vårt repositpry](https://github.com/Gruppe-7B/Gruppe-7B.github.io)
+[Vårt repository](https://github.com/Gruppe-7B/Gruppe-7B.github.io)
 
 ## _Selve oppgaven_
 
