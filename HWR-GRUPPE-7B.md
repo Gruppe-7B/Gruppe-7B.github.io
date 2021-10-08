@@ -3,7 +3,7 @@
 ### **Gruppe 7b medlemmer**
 * Krister Hartvedt Vårdal
 * Tørres Andreas Båshus (https://github.com/Thyrgils)
-* Gustav Svartsund
+* Gustav Svartsund (https://github.com/gsvartsund)
 * Anette Kvarving
 * Martin Hommeland Monsen (https://github.com/Monsen01)
 * Benjamin Johannes Freitag
