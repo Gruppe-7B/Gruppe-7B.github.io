@@ -2,7 +2,7 @@
 
 ### **Gruppe 7b medlemmer**
 * Krister Hartvedt Vårdal
-* Tørres Andreas Båshus
+* Tørres Andreas Båshus (https://github.com/Thyrgils)
 * Gustav Svartsund
 * Anette Kvarving
 * Martin Hommeland Monsen
