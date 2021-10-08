@@ -33,7 +33,7 @@ Oppgavene ble for det meste løst i gruppen mens hvert gruppemedlem hadde ansvar
 
 Ett eksemåel på dette er at vi alle designet visittkortet på hver vår måte før vi ble enige om en felles måte å implementere de på, for at det ikke skulle bli en veldig rotete kode.
 
-Alle gruppemedlemmene fulgte oppgkegget og vi fikk alle ganske raskt en forståelse av det vi måtte lære.
+Alle gruppemedlemmene fulgte oppglegget og vi fikk alle ganske raskt en forståelse av det vi måtte lære.
 
 ### **Verktøy**
 
