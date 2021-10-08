@@ -19,7 +19,7 @@
 2. Deretter sammenlignet vi designene våre og ble enige om ett felles design alle ville bruke.
 3. Da vi hadde bestemt oss for ett design fikk alle beskjed om å lage dette selv i HTML og CSS med eget navn og bilde.
 4. Da alle hadde laget dette i HTML ble vi enige om en standard vi ville bruke videre i oppgaven.
-5. Vi bli enige om å bruke Anette sitt og lagde en fil på Github der alle la informasjonen sin i designet til Anette. Vi har nå en github fil der alle visittkortene ligger.
+5. Vi bli enige om å bruke Anette sitt og laget en fil på Github der alle la informasjonen sin i designet til Anette. Vi har nå en github fil der alle visittkortene ligger.
 
 ### **How we roll**
 
@@ -31,6 +31,11 @@
 3. Vi utviklet en basic versjon av _index.html_ med visittkort og lenker til _how-we-roll.html_ og _hwr-report.html_.
 4. Vi ble så enige om en rekke spørsmål i felleskap som vi ville stille i HWR. Hver person fikk i oppgaven å kode et visst antall spørsmål inn i _how-we-roll.html_ samt å begrunne hvorfor de gjorde som de gjorde med tanke på datamodellering. For at alle skulle få lagt inn sine spørsmål lagde vi **Github** branches og øvde oss på pull requests .
 5. Implementering av visualisering HWR. Vi lagde ett spørreskjema ved hjelp av litt javascript og HTML. Alle på gruppen kom opp med to spørsmål som var sentrert rundt studier og fagene. Vi puttet disse spørsmålene i ett nummerert skjema med sliders der min value er 0 og max value er 10. Når du har svart på disse spørsmålene får vi ett _form data_ der alle svarene står med en iD som er unik til brukeren. 
+
+## _Dataformulering_
+
+Vi valgte en range fra 1 til 10 på spørsmålene. 1 til 10 er enklere å forholde seg til enn en skala fra 1 til 100. Ettersom flere har svart det samme på flere spørsmål, så ser vi at svarene overlapper hverandre i rapporten og ikke viser alles svar.
+
 
 ## _Intern Organisering_
 
