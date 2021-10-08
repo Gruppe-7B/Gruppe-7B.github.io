@@ -5,7 +5,7 @@
 * Tørres Andreas Båshus (https://github.com/Thyrgils)
 * Gustav Svartsund
 * Anette Kvarving
-* Martin Hommeland Monsen
+* Martin Hommeland Monsen (https://github.com/Monsen01)
 * Benjamin Johannes Freitag
 * Larisa Khasanbekovna Saitova
 
