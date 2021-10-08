@@ -19,7 +19,7 @@
 2. Deretter sammenlignet vi designene våre og ble enige om ett felles design alle ville bruke.
 3. Da vi hadde bestemt oss for ett design fikk alle beskjed om å lage dette selv i HTML og CSS med eget navn og bilde.
 4. Da alle hadde laget dette i HTML ble vi enige om en standard vi ville bruke videre i oppgaven.
-5. Vi bli enige om å bruke Anette sitt og laget en fil på Github der alle la informasjonen sin i designet til Anette. Vi har nå en github fil der alle visittkortene ligger.
+5. Vi bli enige om å bruke Anette sitt og lagde en fil på Github der alle la informasjonen sin i designet til Anette. Vi har nå en github fil der alle visittkortene ligger.
 
 ### **How we roll**
 
