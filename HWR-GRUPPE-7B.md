@@ -1,11 +1,11 @@
 **_How we roll oppgavebeskrivelse 7b_**
 
 ### **Gruppe 7b medlemmer**
-* Krister Hartvedt Vårdal (https://github.com/kristervv)
-* Tørres Andreas Båshus (https://github.com/Thyrgils)
-* Gustav Svartsund (https://github.com/gsvartsund)
-* Anette Kvarving (https://github.com/anettekva)
-* Martin Hommeland Monsen (https://github.com/Monsen01)
+* Krister Hartvedt Vårdal [Krister Github](https://github.com/kristervv)
+* Tørres Andreas Båshus [Tørres Github](https://github.com/Thyrgils)
+* Gustav Svartsund [Gustav Github](https://github.com/gsvartsund)
+* Anette Kvarving [Anette Github](https://github.com/anettekva)
+* Martin Hommeland Monsen [Martin Github](https://github.com/Monsen01)
 * Benjamin Johannes Freitag
 * Larisa Khasanbekovna Saitova
 
