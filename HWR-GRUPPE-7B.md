@@ -31,7 +31,7 @@
 
 Oppgavene ble for det meste løst i gruppen mens hvert gruppemedlem hadde ansvar for å lære seg de nødvendinge ferdighetene til å løse oppgaven på forhånd. Vi delte aktivt ressurser innad i gruppen for at alle skulle få den forståelsen de trengte for verktøyene vi tok i bruk.
 
-Ett eksemåel på dette er at vi alle designet visittkortet på hver vår måte før vi ble enige om en felles måte å implementere de på, for at det ikke skulle bli en veldig rotete kode.
+Ett eksempel på dette er at vi alle designet visittkortet på hver vår måte før vi ble enige om en felles måte å implementere de på, for at det ikke skulle bli en veldig rotete kode.
 
 Alle gruppemedlemmene fulgte oppglegget og vi fikk alle ganske raskt en forståelse av det vi måtte lære.
 
