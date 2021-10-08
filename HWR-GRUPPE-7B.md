@@ -6,8 +6,8 @@
 * [Gustav Svartsund](https://github.com/gsvartsund)
 * [Anette Kvarving](https://github.com/anettekva)
 * [Martin Hommeland Monsen](https://github.com/Monsen01)
-* Benjamin Johannes Freitag
-* Larisa Khasanbekovna Saitova
+* [Benjamin Johannes Freitag](https://github.com/Benjamin00231)
+* [Larisa Khasanbekovna Saitova](https://github.com/LarisaSK)
 
 ## _Selve oppgaven_
 
