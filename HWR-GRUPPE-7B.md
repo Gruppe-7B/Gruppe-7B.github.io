@@ -4,7 +4,7 @@
 * Krister Hartvedt Vårdal (https://github.com/kristervv)
 * Tørres Andreas Båshus (https://github.com/Thyrgils)
 * Gustav Svartsund (https://github.com/gsvartsund)
-* Anette Kvarving
+* Anette Kvarving (https://github.com/anettekva)
 * Martin Hommeland Monsen (https://github.com/Monsen01)
 * Benjamin Johannes Freitag
 * Larisa Khasanbekovna Saitova
