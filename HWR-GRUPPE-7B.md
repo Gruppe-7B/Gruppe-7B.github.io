@@ -24,7 +24,7 @@
 1. For å begynne med selve oppgaven _"How we roll"_ satt vi oss ned og ble enige om en brukerreise for å bedre forstå hvilke problemer How we roll applikasjonen skulle løse.
 2. Etter å ha utviklet en brukerreise utviklet vi sammen en skisse på papir av en basic layout for det vi trengte i applikasjonen.
 
-<img src="https://github.com/Gruppe-7B/Gruppe-7B.github.io/blob/main/images/Wireframe.jpg" width=250px; height=35000px;/>
+<img src="https://github.com/Gruppe-7B/Gruppe-7B.github.io/blob/main/images/Wireframe.jpg" width=250px; height=350px;/>
 
 3. Vi utviklet en basic versjon av _index.html_ med visittkort og lenker til _how-we-roll.html_ og _hwr-report.html_.
 4. Vi ble så enige om en rekke spørsmål i felleskap som vi ville stille i HWR. Hver person fikk i oppgaven å kode et visst antall spørsmål inn i _how-we-roll.html_ samt å begrunne hvorfor de gjorde som de gjorde med tanke på datamodellering. For at alle skulle få lagt inn sine spørsmål lagde vi **Github** branches og øvde oss på pull requests .
